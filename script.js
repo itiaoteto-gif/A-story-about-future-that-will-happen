@@ -51,6 +51,12 @@ const SCENES = {
     chara: "self_bed.png",
     music: "bgm_dream.mp3",
     text: [
+      "これから起こる未来の話",
+      "※このサイトはプロトタイプ版です。完全版ではシナリオの変更があったり、画像や音楽も差し替えられます。",
+      "※自殺表現、詳細なグロ描写、過去のトラウマを想起させる表現があります。",
+      "",
+      "これから起こる未来の話",
+      "",
       "目の前で男がベッドに横たわっている。",
       "どうやらとても苦しんでいるようだ。",
       "俺の手元には「鎮痛剤」と書かれた注射器がある。",
@@ -534,3 +540,4 @@ textboxEl.addEventListener("click", () => {
 window.addEventListener("load", () => {
   startScene(currentSceneId);
 });
+
